@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carouselContainer {
+    height: 500px;
+}
+
+.carousel-item {
+    margin-top: 8rem;
+}
+
+.carousel-item img {
+    height:36rem;
+}

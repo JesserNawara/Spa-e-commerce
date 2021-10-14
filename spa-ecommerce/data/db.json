@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id":1,
+      "name": "product 1",
+      "description": "product 1 description",
+      "quantity": 20,
+      "price": 30,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220620/img2_cc155313-ddca-47e1-bfbe-f58545efae40_cite1l.jpg"
+    },
+    {
+      "id":2,
+      "name": "product 2",
+      "description": "product 2 description",
+      "quantity": 10,
+      "price": 28,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220556/img3_0bbdb0e9-cf0e-4ec7-86dc-6636b565a1b2_fw7nty.jpg"
+    },
+    {
+      "id":3,
+      "name": "product 3",
+      "description": "product 3 description",
+      "quantity": 15,
+      "price": 62,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220930/g4_960x_wbgtoq.jpg"
+    },
+    {
+      "id":4,
+      "name": "product 4",
+      "description": "product 4 description",
+      "quantity": 14,
+      "price": 42,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220661/img1_aa513454-ed25-490b-9960-1c6103946125_tewrx4.jpg"
+    },
+    {
+      "id":5,
+      "name": "product 5",
+      "description": "product 5 description",
+      "quantity": 22,
+      "price": 35,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220840/g1_960x_n2wxzg.jpg"
+    }
+    
+  ]    
+}

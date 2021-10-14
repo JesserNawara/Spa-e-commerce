@@ -1,0 +1,88 @@
+.product-card {
+    margin: 50px 0 50px 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.product-info{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding:5rem;
+    opacity: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin-right: 50px;
+    background-color:rgba(92, 44, 0, 0.253);
+}
+
+.product-info #price{
+    color: rgb(113, 243, 130);
+    font-size:25px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.product-info p{
+    font-size: 17px;
+    margin: 10px 0 20px;
+}
+
+.product-info h3{
+    font-size:20px;
+    font-weight: 700;
+    margin: 20px 0 20px;
+}
+
+#productBtn {
+    padding: 5px 20px 5px;
+    border: 2px solid rgb(113, 243, 130);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#productBtn:hover {
+    transition: 0.5s;
+    background-color:rgb(92, 44, 0);
+    color: white;
+}
+
+.product-card:hover img{
+    animation: slide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction:alternate;
+}
+
+.product-card:hover .product-info{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.product-card .product-info {
+    transition: 0.5s;
+    opacity: 0
+}
+
+.product-card img{
+    animation: reversioné;
+    animation-duration: 1s;
+}
+
+@keyframes slide {
+    from { transform: scaleX(1) }
+    to { transform: scaleX(0.65) translateX(250px)}
+}
+
+@keyframes reversioné {
+    from { transform: scaleX(0.65) translateX(250px)}
+    to { transform: scaleX(1) }
+}

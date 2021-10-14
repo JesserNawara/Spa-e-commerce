@@ -1,0 +1,60 @@
+.main-footer {
+    color: white;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .list-icons{
+      display: flex;
+  }
+  .list-icons li {
+      cursor: pointer;
+      margin: auto ;
+  }
+
+  .list-icons li:hover {
+      transition: 0.3s;
+      color: rgb(255, 230, 0);
+  }
+
+
+.list-unstyled li {
+    cursor: pointer;
+}
+
+.list-unstyled li:hover {
+    transition: 0.3s;
+    color: rgb(251, 255, 0);
+}
+
+.newsletter {
+    padding:2rem;
+}
+
+.newsletter input {
+    border: 0;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.newsletter button {
+    background-color:rgba(153, 153, 153, 0.658);
+    border:0;
+    border-radius:16px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.newsletter button:hover {
+    transition: 0.5s;
+    background-color:rgba(151, 253, 120, 0.685);
+    color: white;
+}

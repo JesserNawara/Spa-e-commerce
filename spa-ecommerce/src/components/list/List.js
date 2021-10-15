@@ -1,42 +1,64 @@
 import React, { useState, useEffect } from 'react'
 import './list.css'
-import Description from '../description/Description.js'
 import axios from 'axios';
-// import { Link } from "react-router-dom"
+// import Description from '../description/Description.js'
+import { Link} from 'react-router-dom';
 
-export default function List() {
+export default function List(props) {
 
-    const [products, setProducts] = useState(null);
-    // const [view, setView] = useState(null);
-
-    useEffect( ()=>{
-        fetchProducts()
-    }, [])
-
-    const fetchProducts= () =>{
-        axios.get("http://localhost:3000/products")
-        .then((response) => {
-            setProducts(response.data)
+    const [services, setServices] = useState(null)
+    const fetchServices= ()=> {
+        axios.get("http://localhost:3000/services")
+        .then((response)=>{
+            setServices(response.data)
         })
     }
+    
+    useEffect(()=>{
+        fetchServices();
+    }, [])
 
-    const seeProduct = (product) =>{
-        return <Description product={product} /> 
-    }
+
+    const seeDescription = (product) => {
+        localStorage.setItem("product", JSON.stringify(product) )
+      }
 
     return (
         <div className="container">
-                { products && products.map((product, key) =>
+                { services && services.map((service, key) =>
                 <div className="product-card" key={key}>
-                    <img src={product.image} alt="" />
+                    <img src={service.image} alt="" />
                     <div className="product-info">
-                        <p id="price"> {product.price} $ </p>
-                        <h3> {product.name} </h3>
-                        <p> {product.description} </p>
-                        <button id="productBtn" onClick={()=> {seeProduct(product)}}>See Product</button>
+                        <p id="price"> {service.price} $ </p>
+                        <h3> {service.name} </h3>
+                        <p> {service.description} </p>
+                        <Link to="/description" id="productBtn" onClick={()=>{seeDescription(service)}} >Checkout Offre</Link>  
+ 
                     </div>
                 </div>
                 )}
+                <div className="testemonials">
+                    <div className="testemonials-wrapper">
+                    <h1>Checkout what our customers say about our service!</h1>
+                    <img src="https://res.cloudinary.com/jessssss/image/upload/v1634248618/testimonials-new-bg_u5dpyw.jpg" alt="" className="test"></img>
+                    <div className="test-info">
+                    <ul>
+                        <div>
+                            <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249097/t3_qam6bz.jpg" alt="" ></img>
+                            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249118/t9_mojgt5.jpg" alt="" ></img>
+                            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249122/t5_e2otex.jpg" alt="" ></img>
+                            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
         </div>
     )
 }

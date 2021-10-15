@@ -39,11 +39,12 @@ export default function Footer() {
         <div className="newsletter">
         <input type="text" placeholder="Email.." ></input>
         <button>Submit</button>
+        <h5 id="contact-txt">Join out Newsletter for more EXCLUSIVE OFFERS !</h5>
         </div>
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
+            &copy;{new Date().getFullYear()} Ecommerce | All rights reserved |
             Terms Of Service | Privacy
           </p>
         </div>

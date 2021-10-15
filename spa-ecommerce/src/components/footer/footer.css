@@ -17,7 +17,7 @@
 
   .list-icons li:hover {
       transition: 0.3s;
-      color: rgb(255, 230, 0);
+      color: rgba(151, 253, 120, 0.685);
   }
 
 
@@ -27,11 +27,15 @@
 
 .list-unstyled li:hover {
     transition: 0.3s;
-    color: rgb(251, 255, 0);
+    color: rgba(151, 253, 120, 0.685);
 }
 
 .newsletter {
-    padding:2rem;
+    padding:1rem;
+    background-color:rgba(245, 245, 220, 0.377);
+    border: 1px solid grey;
+    border-radius:15px;
+    margin:1rem;
 }
 
 .newsletter input {
@@ -57,4 +61,12 @@
     transition: 0.5s;
     background-color:rgba(151, 253, 120, 0.685);
     color: white;
+}
+
+#contact-txt{
+    color:black;
+    padding:1rem;
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
 }

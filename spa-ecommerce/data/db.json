@@ -1,5 +1,5 @@
 {
-  "products": [
+  "services": [
     {
       "id":1,
       "name": "product 1",
@@ -41,5 +41,87 @@
       "image": "https://res.cloudinary.com/jessssss/image/upload/v1634220840/g1_960x_n2wxzg.jpg"
     }
     
-  ]    
+  ],
+  "products": [
+    {
+      "id":1,
+      "name": "product 1",
+      "description": "product 1 description",
+      "quantity": 22,
+      "price": 35,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300703/18_grande_r5fioo.jpg"
+    },
+    {
+      "id":2,
+      "name": "product 2",
+      "description": "product 2 description",
+      "quantity": 22,
+      "price": 35,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300490/11_b1c73afc-5b57-4e18-b05e-8a9de10858b1_large_g8xhah.jpg"
+    },
+    {
+      "id":3,
+      "name": "product 3",
+      "description": "product 3 description",
+      "quantity": 22,
+      "price": 35,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300480/20_grande_ae9v3v.jpg"
+    },
+    {
+      "id":4,
+      "name": "product 4",
+      "description": "product 4 description",
+      "quantity": 22,
+      "price": 40,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300490/11_b1c73afc-5b57-4e18-b05e-8a9de10858b1_large_g8xhah.jpg"
+    },
+    {
+      "id":5,
+      "name": "product 5",
+      "description": "product 5 description",
+      "quantity": 22,
+      "price": 40,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300458/21_grande_uvnryc.jpg"
+    },
+    {
+      "id":6,
+      "name": "product 6",
+      "description": "product 6 description",
+      "quantity": 22,
+      "price": 40,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300445/22_large_qkqxxa.jpg"
+    },
+    {
+      "id":7,
+      "name": "product 7",
+      "description": "product 7 description",
+      "quantity": 22,
+      "price": 15,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300510/13_large_a1apdg.jpg"
+    },
+    {
+      "id":8,
+      "name": "product 8",
+      "description": "product 8 description",
+      "quantity": 22,
+      "price": 60,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300407/24_large_l2mqjd.jpg"
+    },
+    {
+      "id":9,
+      "name": "product 9",
+      "description": "product 9 description",
+      "quantity": 22,
+      "price": 60,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300430/19_large_oveamo.jpg"
+    },
+    {
+      "id":10,
+      "name": "product 10",
+      "description": "product 10 description",
+      "quantity": 22,
+      "price": 60,
+      "image": "https://res.cloudinary.com/jessssss/image/upload/v1634300393/23_large_ovjtxb.jpg"
+    }
+  ]
 }

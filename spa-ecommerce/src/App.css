@@ -16,8 +16,8 @@
 
 .products-section {
     margin-top: 15rem;
-    padding: 2rem;
     height: auto;
+    margin: 15rem auto 0;
 }
   
   .products-wrapper {
@@ -54,3 +54,4 @@
     justify-content: center;
     height: 100%;
   }
+

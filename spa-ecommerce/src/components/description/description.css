@@ -1,0 +1,85 @@
+#main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: beige;
+  background-image:url("https://res.cloudinary.com/jessssss/image/upload/v1634220782/slideshow_1_o182bz.jpg") ;
+}
+
+.desc-section {
+  position: relative;
+  top: 10rem;
+  margin: auto;
+  height: 32rem;
+  width: 50%;
+  background-color: rgb(241, 241, 141);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.desc-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+#img {
+  position: relative;
+  left:50%;
+
+  border-top-right-radius: 50px;
+  height: 100%;
+  width: 40%;
+}
+.desc-info {
+  position: relative;
+  text-align: center;
+  right: 45%;
+}
+
+.desctag{
+    margin:2.5rem ;
+}
+
+.btns{
+    margin-top: 2rem;
+    padding:2rem
+}
+
+#addBtn{
+    padding: 5px 20px 5px;
+    border: 2px solid rgb(113, 243, 130);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    text-decoration: none;
+}
+#addBtn:hover {
+    transition: 0.5s;
+    background-color:rgb(92, 44, 0);
+    color: white;
+}
+
+#backBtn{
+    text-decoration: none;
+    cursor: pointer;
+    margin:0.5rem;
+    padding:5px;
+    color:rgb(212, 31, 31);
+    font-size:25px;
+    font-weight: 700;
+}
+#backBtn:hover{
+    transition: 0.5s;
+    color:rgb(92, 44, 0);
+}
+
+#priceDesc {
+  color: rgba(53, 13, 1, 0.767);
+}

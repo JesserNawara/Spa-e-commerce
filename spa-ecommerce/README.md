@@ -37,3 +37,6 @@ This project was my first time using json-server so i assumed it is basically fo
 ### Figma Design:
 
 link: https://www.figma.com/file/YAe0Yff2Y6QcNKMz9eIPXv/Untitled?node-id=0%3A1 
+
+## Note : 
+   The website is not completely responsive due to lack of time.

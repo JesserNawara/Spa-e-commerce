@@ -26,7 +26,8 @@ This project was my first time using json-server so i assumed it is basically fo
    - BOOK NOW: will direct to shop.
    - SEE MORE: will move to the offers section in home page.
 * navbar contains: 
-  -Home : Links to home page.
+  -Logo: Moves to the top of the page.
+  -Home: Links to home page.
   -Offres: Moves to List section. (in both homepage and shop)
   -Contact: Moves to Contact section. (in both homepage and shop)
   -Testemonials: Moves to testemonials section.

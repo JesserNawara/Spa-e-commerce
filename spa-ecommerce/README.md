@@ -33,3 +33,6 @@ This project was my first time using json-server so i assumed it is basically fo
   -Shop: Directs to /shop page .
 * Clicking on an item button will direct to description ( for home page offers and for shop products) .
 
+### Figma Design:
+
+link: https://www.figma.com/file/YAe0Yff2Y6QcNKMz9eIPXv/Untitled?node-id=0%3A1 

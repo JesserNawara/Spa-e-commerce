@@ -46,14 +46,17 @@ export default function List(props) {
                         <div>
                             <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249097/t3_qam6bz.jpg" alt="" ></img>
                             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <p id="names">~ Marie Pavousi ~</p>
                         </div>
                         <div>
                             <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249118/t9_mojgt5.jpg" alt="" ></img>
                             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <p id="names">~ Claire Sandovic ~</p>
                         </div>
                         <div>
                             <img src="https://res.cloudinary.com/jessssss/image/upload/v1634249122/t5_e2otex.jpg" alt="" ></img>
                             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <p id="names">~ Charlotte Cardin ~</p>
                         </div>
                     </ul>
                     </div>

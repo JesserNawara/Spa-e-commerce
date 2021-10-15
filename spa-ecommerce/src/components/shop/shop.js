@@ -25,7 +25,7 @@ export default function Shop() {
   }
 
   return (
-    <div id="shop">
+    <div id="shop"  >
       <section id="products" className="products" >
           {products && products.map((product, key) =>
             <div className="products-card" key={key}>
@@ -33,7 +33,7 @@ export default function Shop() {
               <div className="products-info">
                 <h3> {product.name} </h3>
                 <p> {product.description} </p>
-                <Link to="/description" onClick={seeDescription(product)} id="productBtn" >See Product</Link>
+                <Link to="/description" id="productBtn" onClick={() => {seeDescription(product)}}  >See Product</Link>
               </div>
             </div>
           )}

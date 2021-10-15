@@ -7,7 +7,7 @@ export default function Navbar() {
         <div>
             <div className="nav-container">
                 <div className="nav-logo">
-                    <h1> E-commerce </h1>
+                    <a href="#home" className="logo"> E-commerce </a>
                 </div>
                 <div className="nav-list">
                     <ul>
